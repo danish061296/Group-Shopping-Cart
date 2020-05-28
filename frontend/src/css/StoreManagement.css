@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+/*removes the blue border that appears when input is clicked*/
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active
+{
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}
+
+.StoreManagement {
+  text-align: center;
+}
+
+.StoreManagement-link {
+  color: #09d3ac;
+}
+
+.clicker{
+  width:200px;
+  height: 200px;
+  font-size: 24px;
+}
+
+.user-counter{
+  padding: 5px;
+  background: black;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.items{
+  width:800px;
+  display: flex;
+  margin: 40px auto 0 auto;
+  padding: 50px;
+  flex-direction: column;
+  background-color: #C0C5CE;
+  justify-content: center;
+  text-align: center;
+  box-shadow: -5px 5px 5px #aaaaaa;
+  border-radius: 10px;
+  border-style: none;
+}
+
+.items-item{
+  flex-grow: 1;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.items-content{
+  flex-grow: 2;
+}
+
+.item-box {
+  font-size: 15px;
+  font-weight: 800;
+  padding: 6px;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 5px;
+  margin-right: 25px;
+}
+
+.itemPrice {
+  width: 60px;
+}
+
+.itemName {
+  width: 600px;
+}
+
+.delete-button {
+  background-color: #FF5252;
+  border-radius: 15px;
+  width: 80px;
+  font-weight: 900;
+  border-style: none;
+
+}
+
+#input-price {
+  width: 100px;
+  height: 20px;
+  border-radius: 5px;
+  padding-left: 5px;
+}
+
+#input-name {
+  width: 200px;
+  height: 20px;
+  border-radius: 5px;
+  padding-left: 5px;
+}
+
+#input-bttn {
+  width: 100px;
+  height:25px;
+  border-radius: 50px;
+  font-weight: bold;
+  border-style: none;
+  background-color: #09d3ac;
+}
+#input-bttn:hover, .delete-button:hover {
+  background-color: #FFF;
+}
+
+#management-header {
+  font-size: 40px;
+  font-weight: 900;
+  font-family: 'Oswald', sans-serif;
+}
+
+#management-item-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #C0C5CE;
+  padding: 20px 80px 20px 80px;
+  margin: 0 auto 0 auto;
+  width: 600px;
+  border-radius: 10px;
+}
+
+#management-item-box-price {
+  width: 100px;
+  margin-right: 30px;
+}
+
+#management-item-box-name {
+  width: 200px;
+  margin-right: 40px;
+}
+
+#management-item-box-button {
+  width: 100px;
+}
+
+#success-message {
+  font-size: 11px;
+  color: #3DAEA3;
+  font-style: italic;
+  font-weight: 800;
+}

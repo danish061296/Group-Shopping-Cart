@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+.flex-box {
+  margin-top: 25px;
+  display: flexbox;
+  justify-content: center;
+  text-align: center;
+}
+
+/* =========================== LOGIN PAGE CSS ===========================*/
+
+.homepage-head {
+  font-weight: bolder;
+  font-style: oblique;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+
+.username-input {
+  order: 1;
+  width: 140px;
+  height: 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding-left: 5px;
+  margin-right: 10px;
+}
+
+.password-input {
+  order: 2;
+  width: 140px;
+  border: 2px solid black;
+  height: 20px;
+  border-radius: 5px;
+  padding-left: 5px;
+  margin-right: 10px;
+}
+
+.login-bttn {
+  order: 3;
+  width: 60px;
+  height:25px;
+  border-radius: 50px;
+  font-weight: bold;
+  border-style: none;
+  color: #000;
+  background-color: #09d3ac;
+}
+
+.login-bttn:hover {
+  background-color: #909090;
+}
+
+#error {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 12px;
+  
+  color: #880202;
+}
+
+/* =========================== LOGOUT PAGE CSS ===========================*/
+
+.logout-head {
+  font-weight: bolder;
+  font-style: oblique;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  margin: 50px 0 50px 0;
+}
+
+.logout-bttn a {
+  color: #000;
+  text-decoration: none;
+}
+
+.logout-bttn {
+  margin: 0 auto;
+  width: 150px;
+  height: 30px;
+  border-radius: 50px;
+  font-weight: bold;
+  border-style: none;
+  color: #000;
+  background-color: #09d3ac;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.logout-bttn:hover {
+  background-color: #909090;
+}

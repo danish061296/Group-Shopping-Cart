@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+
+.flex-1 {
+  order: 1;
+  margin-right: 50px;
+}
+
+.flex-2 {
+  order: 2;
+}
+
+#store-head {
+  font-weight: bolder;
+  font-style: oblique;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 50px;
+}
+
+#history-head {
+  font-weight: bolder;
+  font-style: oblique;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  margin: -30px 0 10px 0;
+  padding: 0;
+}
+
+
+
+#cart-number {
+  display: inline-flex;
+  font-weight: bold;
+  margin-right: 30px;
+ 
+}
+
+#total-price {
+  font-weight: bold;
+  display: inline-flex;
+  text-align: center;
+  
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dropdown-content {
+  display: flex;
+  width: 400px;
+  justify-content: center;
+}
+
+.item-box {
+  font-size: 15px;
+  font-weight: 800;
+  padding: 6px;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 5px;
+  margin-right: 25px;
+}
+
+#price {
+  display: flex;
+  float: left;
+  justify-content: center;
+  padding-bottom: 10px;
+  width: 70px;
+  margin: 5px;
+}
+
+#item {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 300px;
+  padding-bottom: 10px;
+  margin: 5px;
+}
+
+.cart {
+  width: 400px;
+  min-height: 200px;
+  border: 1px solid #999999;
+  border-radius: 4px;
+  background-color: #eeeeee;
+}
+
+
+
+.itemSelectBtn {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+.itemSelectBtn:hover {
+  background-color: #dddddd;
+}
+
+.itemSelectBtn:visited {
+  color: black;
+}
+
+
+#clearCartBtn {
+  margin-left: 10px;
+  margin-right: 10rem;
+}
+
+
+li.items-list ul {
+  background-color: #eeeeee;
+  display: none;
+}
+
+li.items-list:hover ul {
+  display: block;
+}
+
+li {
+  list-style: none;
+}
+
+.itemSelector {
+  cursor: pointer;
+  display: flex;
+}
+
+.itemSelector:hover {
+  background-color: #dddddd;
+}
+
+.item-dropdown {
+  width: 400px;
+  justify-content: center;
+}
+
+.submitBtns {
+  display: flex;
+  padding: 10px;
+}
+
+.button {
+  width: 100px;
+  height: 25px;
+  border-radius: 50px;
+  font-weight: bold;
+  border-style: none;
+  margin-right: 38px;
+  background-color: #09d3ac;
+}
+.button:hover {
+  background-color: #909090;
+}
+
+.transactions-total {
+  font-weight: bold;
+  float: left;
+  margin-left: 10px;
+  padding-bottom: 5px;
+}
+
